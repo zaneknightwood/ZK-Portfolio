@@ -9,6 +9,7 @@ Thanks!
 
 ## Projects In This Repository:
 -[ZK Book Recommender](#zk-book-recommender)
+ -A web application that generates book recommendations based of a user input title.
 
 
 ---
