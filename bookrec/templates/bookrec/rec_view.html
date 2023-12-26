@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title>ZK Book Recommender</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'bookrec/rec_view.css' %}">
+</head>
+<body>
+  <div class="textstyle1">
+    <h1 id="main_heading">ZK Book Recommender</h1>
+  </div>
+  <div class="textstyle2">
+    <br/>
+      <div id="heading2_container">
+        <div id="heading2_container_padding" >
+          <div class="textstyle1">
+            <h2 id="heading2">Here are your recommendations:</h2>
+            <br/>
+            <br/>
+            <br/>
+            <h2 id="heading2">Select a book for more information.</h2>
+          </div>
+          <div style="clear:both"></div>
+        </div>
+      </div>
+        <div class="wrapper">
+          <figure>
+            <div class="img_padding">
+              <a href="{{book1_url}}">
+                <img src="{{book1_img}}" width="256" id="book_img" alt="{{book1_title}} cover image.">
+              </a>
+              <a href="{{book2_url}}">
+                <img src="{{book2_img}}" width="256" id="book_img" alt="{{book2_title}} cover image.">
+              </a>
+            </div>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure>
+            <a href="{{book3_url}}">
+              <img src="{{book3_img}}" width="256" id="book_img" alt="{{book3_title}} cover image.">
+            </a>
+            <a href="{{book4_url}}">
+              <img src="{{book4_img}}" width="256" id="book_img" alt="{{book4_title}} cover image.">
+            </a>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure>
+            <a href="{{book5_url}}">
+              <img src="{{book5_img}}" width="256" id="book_img" alt="{{book5_title}} cover image.">
+            </a>
+            <a href="{{book6_url}}">
+              <img src="{{book6_img}}" width="256" id="book_img" alt="{{book6_title}} cover image.">
+            </a>
+          </figure>
+        </div>
+        <div style="clear:both"></div></div></div><div id="container_63ddebe7"><div id="container_63ddebe7_padding" ><div class="textstyle1"><h2 id="heading_5526d82f"><a href="{{ vis_url }}">Want to know how it all works?</a></h2></div>
+        <div style="clear:both"></div></div></div><div id="container_63ddebe7"><div id="container_63ddebe7_padding" ><div class="textstyle1"><h2 id="heading_5526d82f"><a href="{% url 'home' %}">Start Again</a></h2></div>
+  </div>
+</body>
+</html>

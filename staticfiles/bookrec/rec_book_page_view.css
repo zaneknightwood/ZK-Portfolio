@@ -1,0 +1,41 @@
+h1, h2, h3 { margin:0; padding:0; font-weight:normal; font-style:normal; }
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+body { background-color:#282629; padding:0;  margin: 0; }
+.textstyle1 { text-align:center; }
+#heading_48b5813c { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:54pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#CFCDCF; text-align:center; font-weight:bold;  }
+.textstyle2 { text-align:left; }
+.textstyle3 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_118931d5 { vertical-align: top; position:relative; display: inline-block; width:98%; min-height:42px; background:none;  }
+#container_118931d5_padding { margin: 10px; display: block;  }
+#heading_639a229a { vertical-align: bottom; position:relative; display: inline-block; width:245px; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:center; font-weight:bold;  }
+#container_59858009 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_59858009_padding { margin: 10px; display: block;  }
+#container_38afb767 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_38afb767_padding { margin: 10px; display: block;  }
+#heading_4ba7bea6 { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:center; font-weight:bold;  }
+#container_14714d46 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:370px; min-width:370px; max-width:370px; background:none;  }
+#container_14714d46_padding { margin: 10px; display: block;  }
+.textstyle4 { text-align:justify; }
+#img_73838185 { vertical-align: top; position:relative; display: inline-block; width:30%; min-width:350px; max-width:350px; background:none; height:auto;  }
+#container_6a7bbee8 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_6a7bbee8_padding { margin: 10px; display: block;  }
+#heading_26fb9b04 { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:center; font-weight:bold;  }
+#container_688655a9 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:40px; background:none;  }
+#container_688655a9_padding { margin: 10px; display: block;  }
+#heading_2ba39bff { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#5D5D9E; text-align:left; font-weight:bold; text-decoration:underline;  }
+#container_70a6854 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:44px; background:none;  }
+#container_70a6854_padding { margin: 10px; display: block;  }
+#heading_5efb839b { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:left;  }
+#container_63ddebe7 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:51px; background:none;  }
+#container_63ddebe7_padding { margin: 10px; display: block;  }
+#heading_5526d82f { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:16pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:center; font-weight:bold;  }
+@media only screen and (max-width: 600px)
+{
+		#container_38afb767 { width:100%;  }
+		#container_14714d46 { width:100%;  }
+		#container_6a7bbee8 { width:100%;  }
+}
+

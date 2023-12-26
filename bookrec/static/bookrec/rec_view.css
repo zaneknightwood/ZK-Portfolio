@@ -1,0 +1,14 @@
+h1, h2, h3 { margin:0; padding:0; font-weight:normal; font-style:normal; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#CFCDCF; text-align:center;}
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+body { background-color:#282629; padding:0;  margin: 0; }
+.textstyle1 { text-align:center; }
+#main_heading { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:54pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#CFCDCF; text-align:center;  }
+.textstyle2 { text-align:left; }
+#heading2_container { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:46px; background:none;  }
+#heading2_container_padding { margin: 10px; display: block;  }
+#heading2 { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:left; font-weight:bold;  }
+.wrapper {text-align: center; gap: 10px; }
+.img_padding {margin: 10px; display:block; }

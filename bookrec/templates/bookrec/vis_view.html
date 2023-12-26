@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title>ZK Book Recommender</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'bookrec/rec_view.css' %}">
+</head>
+<body>
+  <div class="textstyle1">
+    <h1 id="main_heading">ZK Book Recommender</h1>
+  </div>
+  <div class="textstyle2">
+    <br/>
+      <div id="heading2_container">
+        <div id="heading2_container_padding" >
+          <div class="textstyle1">
+            <h2 id="heading2">Data Visualizations</h2>
+            <br/>
+            <br/>
+            <br/>
+            <h2 id="heading2">How does the ZK Book Recommender know what books to recommend?</h2>
+            <br/>
+            <br/>
+            <h3>First, the dataset is loaded into a dataframe. This allows the program to easily search through the data and find your book. <br/>
+            Once your book is found, it's time to do some comparisons!<br/>
+            The program searches through the dataframe and finds every book that matches yours.<br/>
+            It looks for matching authors, genres, Goodreads ratings, and page counts.<br/>
+            For every match it finds, it adds the book's ID to a special list.<br/>
+            Once all the matches are confirmed, the program sorts the list to see how many matches each book recieved.<br/>
+            It then tallies up all the points, and the top 6 books are our winners!<br/><br/><br/>
+            </h3>
+          </div>
+          <div style="clear:both"></div>
+        </div>
+      </div>
+      <div style="clear:both"></div></div></div><div id="container_63ddebe7"><div id="container_63ddebe7_padding" ><div class="textstyle1"><h2 id="heading_5526d82f">ML Model Explanation</h2></div>
+        <div class="wrapper">
+          <figure>
+            <div class="img_padding">
+                <img src="{{model_explanation}}" width="800" id="book_img" alt="An image showing how the machine learning model works.">
+            </div>
+          </figure>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <div style="clear:both"></div></div></div><div id="container_63ddebe7"><div id="container_63ddebe7_padding" ><div class="textstyle1"><h2 id="heading_5526d82f">This pie chart shows how well each recommended book matches yours, relative to each other.</h2></div>
+        <div class="wrapper">
+          <figure>
+            <img src="https://www.pythonanywhere.com/user/zaneknightwood/files/home/zaneknightwood/pie_chart.png" width="800" id="book_img" alt="A pie chart showing the relation between the recommended books.">
+          </figure>
+        </div>
+        <div style="clear:both"></div></div></div><div id="container_63ddebe7"><div id="container_63ddebe7_padding" ><div class="textstyle1"><h2 id="heading_5526d82f">This stacked bar chart shows the distribution of matching elements for your recommended books.</h2></div>
+        <div class="wrapper">
+          <figure>
+            <img src="https://www.pythonanywhere.com/user/zaneknightwood/files/home/zaneknightwood/stacked_bar.png" width="800" height="auto" id="book_img" alt="A stacked bar chart showing the distribution of matching elements for the recommended books.">
+          </figure>
+        </div>
+        <div style="clear:both"></div></div></div><div id="container_63ddebe7"><div id="container_63ddebe7_padding" ><div class="textstyle1"><h2 id="heading_5526d82f"><a href="{% url 'home' %}">Start Again</a></h2></div>
+  </div>
+</body>
+</html>

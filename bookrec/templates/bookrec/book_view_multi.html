@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title>ZK Book Recommender</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'bookrec/book_view_multi.css' %}">
+</head>
+<body>
+<div class="textstyle1">
+<h1 id="heading_552d7807">ZK Book Recommender</h1>  </div>
+<div class="textstyle2">
+<span class="textstyle3"><br/></span><div id="container_6f123cbb"><div id="container_6f123cbb_padding" ><div class="textstyle1"><h2 id="heading_1f6374ba">There are {{num_books}} books with that title. <br/>Please pick your book.</h2></div>
+<div style="clear:both"></div></div></div><span class="textstyle3"><br/></span><div id="container_289b6f13"><div id="container_289b6f13_padding" ><div class="textstyle1">
+	<form method="POST">
+		{% csrf_token %}
+	<select name="book_title_combo" id="combo_box_title" >
+	{% for book in books %}
+		<option value="{{book.1}}" selected="selected">{{book.0}}</option>
+	{% endfor %}
+	</select>
+	<input type="submit" value="Go!" id="go_button" >
+	</form>
+</div>
+<div style="clear:both"></div></div></div>  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+h1, h2, h3 { margin:0; padding:0; font-weight:normal; font-style:normal; }
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+body { background-color:#282629; padding:0;  margin: 0; }
+.textstyle1 { text-align:center; }
+#heading_5f0116bc { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:54pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#CFCDCF; text-align:center; font-weight:bold;  }
+.textstyle2 { text-align:left; }
+.textstyle3 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_21c46e0d { vertical-align: top; position:relative; display: inline-block; width:98%; min-height:42px; background:none;  }
+#container_21c46e0d_padding { margin: 10px; display: block;  }
+#heading_780a4201 { vertical-align: bottom; position:relative; display: inline-block; width:245px; height:27px; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:center; font-weight:bold;  }
+#container_6b4db2e2 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:325px; background:none;  }
+#container_6b4db2e2_padding { margin: 10px; display: block;  }
+#img_3dae042d { vertical-align: top; position:relative; display: inline-block; width:30%; min-width:350px; max-width:350px; background:none; height:auto;  }
+#container_3af796a8 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:40px; background:none;  }
+#container_3af796a8_padding { margin: 10px; display: block;  }
+#heading_567eab73 { vertical-align: bottom; position:relative; display: inline-block; width:181px; height:27px; background:none; font-size:18pt; font-family:Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif; color:#C0C0C0; text-align:left; font-weight:bold;  }
+#container_2b8a8e57 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:54px; background:none;  }
+#container_2b8a8e57_padding { margin: 10px; display: block;  }
+#button_552b321a { vertical-align: bottom; position:relative; display: inline-block; margin:0px 10px 0px 0px;width:100px; height:30px; font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#button_41df46e { vertical-align: bottom; position:relative; display: inline-block; margin:0px 0px 0px 10px;width:100px; height:30px; font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }

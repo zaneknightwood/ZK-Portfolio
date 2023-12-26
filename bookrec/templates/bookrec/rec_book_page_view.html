@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title>ZK Book Recommender</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'bookrec/rec_book_page_view.css' %}">
+</head>
+<div class="textstyle1">
+	<h1 id="heading_48b5813c">ZK Book Recommender</h1>  </div>
+	<div class="textstyle2">
+	<span class="textstyle3"><br/></span>  </div>
+	<div class="textstyle1">
+	<div id="container_118931d5"><div id="container_118931d5_padding" ><div class="textstyle1"><h2 id="heading_639a229a">{{book_title|title}}</h2></div>
+	<div style="clear:both"></div></div></div>  </div>
+	<div class="textstyle2">
+	<span class="textstyle3"><br/></span>  </div>
+	<div class="textstyle1">
+	<div id="container_59858009"><div id="container_59858009_padding" ><div class="textstyle1"><div id="container_38afb767"><div id="container_38afb767_padding" ><div class="textstyle2"></div>
+	<div class="textstyle1"><h2 id="heading_4ba7bea6">Written By:<br/>
+		{% for author in author_list %}
+			<br/>{{author}}
+		{% endfor %}</h2></div>
+	<div style="clear:both"></div></div></div><div id="container_14714d46"><div id="container_14714d46_padding" ><div class="textstyle2"></div>
+	<div class="textstyle4"><img src="{{book_img}}" width="256" height="256" id="img_73838185" alt="book_title_cover" title="" /></div>
+	<div style="clear:both"></div></div></div><div id="container_6a7bbee8"><div id="container_6a7bbee8_padding" ><div class="textstyle2"></div>
+	<div class="textstyle1"><h2 id="heading_26fb9b04">Genre:<br/>
+		{% for genre in genre_list %}
+			<br/>{{genre}}
+		{% endfor %}</h2></div>
+	<div style="clear:both"></div></div></div></div>
+	<div style="clear:both"></div></div></div><div id="container_688655a9"><div id="container_688655a9_padding" ><div class="textstyle1"><h2 id="heading_2ba39bff"><a href="{{book_link}}" target="_blank">Find out more on Goodreads.com</a></h2></div>
+	<div style="clear:both"></div></div></div><div id="container_70a6854"><div id="container_70a6854_padding" ><div class="textstyle1"><h2 id="heading_5efb839b">{{rating}} Stars!</h2></div>
+	<div style="clear:both"></div></div></div><div id="container_63ddebe7"><div id="container_63ddebe7_padding" ><div class="textstyle1"><h2 id="heading_5526d82f">{{perc_match}} % Match!</h2></div>
+	<div style="clear:both"></div></div></div>  </div>
+	</body>
+</html>

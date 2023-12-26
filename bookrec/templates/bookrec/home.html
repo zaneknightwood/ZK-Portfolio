@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title>ZK Book Recommender</title>
+	<link rel="stylesheet" href="{% static 'bookrec/home.css' %}">
+</head>
+<body>
+<div class="textstyle1">
+<h1 id="main_heading">Welcome to ZK Book Recommender!</h1>  </div>
+<div class="textstyle2">
+  <span class="textstyle3"><br/></span>
+  </div>
+<form method="POST" action="home">
+	{% csrf_token %}
+	{% if no_book %}
+	<div class="textstyle1">
+		<br/><br/><h2 id="heading_2">Sorry, no book was found matching that title. Please try again.</h2><br/><br/><br/><br/>
+		</div>
+	{% endif %}
+<div class="textstyle1">
+<h2 id="heading_2">Enter a book title: </h2><input type="text" name="user_title"  id="user_input" >
+<input name="go_button" type="submit" value="Go!" title=""  id="go_button" >
+  </div>
+</form>
+</body>
+</html>
