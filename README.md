@@ -1,5 +1,5 @@
 # Zane Knightwood's Portfolio
-Hi, I'm Zane and this is my portfolio. I recently graduated from Western Governors University (Dec '23) with a BS in Computer Science.
+Hi, I'm Zane and this is my portfolio. I recently graduated from Western Governors University (Jan '24) with a BS in Computer Science.
 
 Eventually, this repository will be converted into a website that will host different projects I've created using Python and Django. For now, this repository only holds one project, the ZK Book Recommender, which is described below.
 
