@@ -1,18 +1,3 @@
-# Zane Knightwood's Portfolio
-Hi, I'm Zane and this is my portfolio. I recently graduated from Western Governors University (Jan '24) with a BS in Computer Science.
-
-Eventually, this repository will be converted into a website that will host different projects I've created using Python and Django. For now, this repository only holds one project, the ZK Book Recommender, which is described below.
-
-You can contact me and find my work history via [LinkedIn](https://www.linkedin.com/in/zane-knightwood).
-
-Thanks!
-
-## Projects In This Repository:
--[ZK Book Recommender](#zk-book-recommender)
-
-
----
-
 # ZK Book Recommender
 ZK Book Recommender is a Python web application written with the Django framework. It allows a user to input a book title and recieve a recommendation of six books that are similar to the input title.<br/>
 &copy;2023 Zane Knightwood
